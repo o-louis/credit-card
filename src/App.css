@@ -15,8 +15,8 @@ body {
 }
 
 :root {
-    --background-color: #EFEFEF;
     --blue: #4A90E2;
+    --background-color: #EFEFEF;
 }
 
 .app {
@@ -75,7 +75,8 @@ body {
 }
 
 /* FORM: expiration/security and buttons */
-.form__infos, .form__buttons {
+.form__infos,
+.form__buttons {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
@@ -106,9 +107,6 @@ body {
 
 
 /* CARD PREVIEW */
-/* .card-preview {
-    
-} */
 
 .card-preview__card {
     margin-top: 85px;
@@ -135,7 +133,8 @@ body {
     font-size: 1.7rem;
 }
 
-.card-preview__card-name, .card-preview__card-expiration {
+.card-preview__card-name,
+.card-preview__card-expiration {
     padding: 10px;
     text-transform: uppercase;
     border-radius: 3px;
