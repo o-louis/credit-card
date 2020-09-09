@@ -98,3 +98,7 @@ export const cvcValidation = (e) => {
     }
     return {error, value: null};
 }
+
+export const isFormValid = (e) => {
+    return;
+}
